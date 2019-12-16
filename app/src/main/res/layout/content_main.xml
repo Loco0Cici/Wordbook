@@ -11,8 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_main"
     tools:context=".MainActivity">
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -23,12 +22,12 @@
         tools:context=".MainActivity">
 
         <fragment
-            android:name="com.example.sunduoduo.words.WordItemFragment"
             android:id="@+id/wordslist"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:name="com.example.lishuqi.words.WordItemFragment"
+            android:layout_width="347dp"
+            android:layout_height="607dp"
             android:layout_weight="1"
-            tools:layout="@layout/item"/>
+            tools:layout="@layout/item" />
 
 
     </LinearLayout>

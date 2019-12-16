@@ -1,4 +1,4 @@
-package com.example.sunduoduo.words;
+package com.example.lishuqi.words;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.sunduoduo.words", appContext.getPackageName());
+        assertEquals("com.example.lishuqi.words", appContext.getPackageName());
     }
 }

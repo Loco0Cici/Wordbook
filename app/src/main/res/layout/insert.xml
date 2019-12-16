@@ -4,27 +4,38 @@
 
     <TableRow>
 
-        <TextView android:text="单词"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="         单词" />
+
         <EditText
             android:id="@+id/txtWord"
-            android:layout_width="match_parent"/>
+            android:layout_width="238dp"
+            android:theme="@style/MyEditText"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
     </TableRow>
 
     <TableRow>
 
-        <TextView android:text="含义"/>
+        <TextView android:text="         含义"/>
         <EditText
             android:id="@+id/txtMeaning"
+            android:theme="@style/MyEditText"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:layout_width="match_parent"/>
 
     </TableRow>
 
     <TableRow>
 
-        <TextView android:text="示例" />
+        <TextView
+            android:layout_width="48dp"
+            android:text="         示例" />
 
         <EditText
             android:id="@+id/txtSample"
+            android:theme="@style/MyEditText"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:layout_width="match_parent" />
     </TableRow>
 

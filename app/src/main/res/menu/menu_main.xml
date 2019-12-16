@@ -11,5 +11,7 @@
         android:orderInCategory="100" app:showAsAction="never" />
     <item android:id="@+id/action_news" android:title="新闻查找"
         android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_help" android:title="帮助"
+        android:orderInCategory="100" app:showAsAction="never" />
 
 </menu>

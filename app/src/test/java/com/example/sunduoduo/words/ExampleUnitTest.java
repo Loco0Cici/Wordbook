@@ -1,4 +1,4 @@
-package com.example.sunduoduo.words;
+package com.example.lishuqi.words;
 
 import org.junit.Test;
 

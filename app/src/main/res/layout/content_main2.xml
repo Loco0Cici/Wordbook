@@ -9,34 +9,58 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.sunduoduo.words.Main2Activity"
+    tools:context="com.example.lishuqi.words.Main2Activity"
     tools:showIn="@layout/activity_main2">
+
+
     <EditText
+        android:id="@+id/searchcontent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/searchcontent"
-
-        android:hint="输入要查询的单词/文字......"
-        android:layout_marginTop="50dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"/>
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="99dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="50dp"
+        android:hint="输入要查询的单词"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:theme="@style/MyEditText" />
+
     <Button
         android:id="@+id/btn_search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Search"
-        android:layout_below="@+id/searchcontent"
+        android:background="#6CA6DF"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/searchcontent"
+        android:layout_marginLeft="145dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="10dp"
+        android:text="搜索" />
 
+    <Button
+        android:id="@+id/btn_sound"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/searchcontent"
+        android:layout_marginLeft="306dp"
+        android:layout_marginStart="306dp"
+        android:layout_marginTop="-50dp"
+        android:background="#FFFFFF"
+        android:text="🎺" />
 
     <TextView
         android:id="@+id/searchresult"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btn_search"
+        android:layout_width="395dp"
+        android:layout_height="492dp"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_below="@+id/btn_search"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp" />
 
 
 </RelativeLayout>

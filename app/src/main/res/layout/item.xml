@@ -11,11 +11,13 @@
         android:id="@+id/textId"
         android:visibility="gone"
         />
+
     <TextView
+        android:id="@+id/textViewWord"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:text="Word"
-        android:id="@+id/textViewWord"
-        android:textSize="30dp" />
+        android:textSize="40dp" />
 
 </LinearLayout>
