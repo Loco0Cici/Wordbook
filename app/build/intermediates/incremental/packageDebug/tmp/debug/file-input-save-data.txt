@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Fri Oct 04 13:43:50 CST 2019
+#Sun Nov 17 12:05:10 CST 2019
 0.baseType=DIRECTORY
-0.base=/Users/reese/Desktop/Words/app/build/intermediates/transforms/dexMerger/debug/0
+0.base=/Users/reese/Desktop/Words2/app/build/intermediates/transforms/dexMerger/debug/0
 0.path=classes.dex
 0.set=DEX
 count=1
